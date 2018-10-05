@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping cards</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jq.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+              <div class="site-branding">
+                <h1>Shopping</h1>
+              </div>
+          </div>
+          <div class="col-sm-3 flex justify-content-end align-content-center">
+            <table>
+              <tr>
+              <th><input type="search" class="fa fa-search" id="headerSearch" placeholder="Type for search"></th>
+              <th><i class="fa fa-user"></i></th>
+              <th><i class="fa fa-shopping-cart"></i></th>
+            </tr>
+          </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="btnContainer">
+      <button class="btn" id="gridview"><i class="fa fa-th-large"></i> Grid</button>
+      <button class="btn" id="listbutton"><i class="fa fa-bars"></i> List</button>
+    </div>
+    <br>
+    <div class="row" id="row">
+      <div class="column"  id="listview">
+        <div class="card" id=cols>
+          <img class="card-img" src="img/product-img/product-1.jpg" alt="Card image" style="width:85%;height:50%;"/>
+        </div>
+        <div class="card-body" id="card-body">
+          <div class="product-description" id="product">
+            <span>topshop1</span>
+              <h6>Knot Front Mini Dress</h6>
+              <p class="product-price">$80.00
+                <a href="#" class="favme fa fa-heart" style="margin-left:80%;"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column"  id="listview">
+          <div class="card" id=cols>
+            <img class="card-img" src="img/product-img/product-2.jpg" alt="Card image" style="width:85%;height:50%;"/>
+          </div>
+          <div class="card-body" id="card-body">
+            <div class="product-description" id="product">
+              <span>topshop2</span>
+                  <h6>Knot Front Mini Dress</h6>
+                    <p class="product-price">$90.00
+                  <a href="#" class="favme fa fa-heart" style="margin-left:80%;"></a>
+                </p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" id="row">
+      <div class="column" id="listview">
+        <div class="card" id="cols">
+          <img class="card-img" src="img/product-img/product-3.jpg" alt="Card image" style="width:85%;height:50%;"/>
+        </div>
+        <div class="card-body" id="card-body">
+          <div class="product-description" id="product">
+              <span>topshop3</span>
+                <h6>Knot Front Mini Dress</h6>
+                <p class="product-price">$100.00
+                <a href="#" class="favme fa fa-heart" style="margin-left:80%;"></a>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="column" id="listview">
+        <div class="card" id=cols>
+          <img class="card-img" src="img/product-img/product-4.jpg" alt="Card image" style="width:85%;height:50%;"/>
+        </div>
+        <div class="card-body" id="card-body">
+          <div class="product-description" id="product">
+            <span>topshop4</span>
+            <h6>Knot Front Mini Dress</h6>
+            <p class="product-price">$200.00
+              <a href="#" class="favme fa fa-heart" style="margin-left:80%;"></a>
+            </p>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
